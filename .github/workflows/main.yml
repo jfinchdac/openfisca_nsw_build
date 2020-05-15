@@ -29,6 +29,6 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         registry: ${{ secrets.DOCKER_REGISTRY }}
-        repository: openfisca_nsw_API
+        repository: openfisca_nsw_api
         tags: latest
         dockerfile: openfisca_nsw_api.Dockerfile
